@@ -37,6 +37,8 @@ class ProductCard extends React.Component {
           description={description}
           rating={rating}
           url={url}
+          buttonLabel={buttonLabel}
+          buttonClass={buttonClass}
         />
 
       </Card>
