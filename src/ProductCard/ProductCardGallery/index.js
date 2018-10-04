@@ -47,16 +47,24 @@ class ProductCardGallery extends React.Component {
 	    );
 	  })
 	}
-     <GalleryToggle
-       icon='>'
-       action={this.rotateRight.bind(this)}
-       right
-      />
-     <GalleryToggle
-       icon='<'
-       action={this.rotateLeft.bind(this)}
-       left
-      />
+          {
+            photos.length > 1 && (
+                <GalleryToggle
+                    icon='>'
+                    action={this.rotateRight.bind(this)}
+                    right
+                />
+            )
+          }
+          {
+              photos.length > 1 && (
+                  <GalleryToggle
+                      icon='<'
+                      action={this.rotateLeft.bind(this)}
+                      left
+                  />
+              )
+          }
       </div>
     );
   }
