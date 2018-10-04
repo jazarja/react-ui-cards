@@ -1,6 +1,6 @@
 {
   "name": "react-ui-cards-bootstrap",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Various card components for React (Bootstrap 'card' css class compatible) ",
   "main": "index.js",
   "scripts": {

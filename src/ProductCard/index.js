@@ -19,7 +19,9 @@ class ProductCard extends React.Component {
       productName,
       description,
       rating,
-      url
+      url,
+      buttonLabel,
+      buttonClass
     } = this.props;
 
     return (

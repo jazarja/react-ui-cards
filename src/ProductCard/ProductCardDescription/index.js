@@ -26,7 +26,7 @@ class ProductCardDescription extends React.Component {
 	  {description}
 	</p>
         <div className='product-card-row'>
-          <a className={buttonClass ? butonClass:'buy-button'} href={url}>{buttonLabel ? buttonLabel : 'Buy now'}</a>
+          <a className={buttonClass ? butonClass : 'buy-button'} href={url}>{buttonLabel ? buttonLabel : 'Buy now'}</a>
 	</div>
       </div>
     );
